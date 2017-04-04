@@ -23,7 +23,6 @@ public class S04ImvoiceApp {
         System.out.println("Ingrese Subtotal:   ");
         double subtotal = sc.nextDouble();
         double impuesto = subtotal = 0.25;
-        double descuento = subtotal * 0.10;
         double total = subtotal + impuesto;
         
         String mensaje = "Total Factura:" + total + "\n";
